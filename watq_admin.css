@@ -1,0 +1,95 @@
+#watq_quote_info button,
+#watq_quote_data button,
+#watq_quote_info button.handlediv,
+#watq_quote_data button.handlediv,
+#watq_quote_info .hndle,
+#watq_quote_data .hndle,
+#watq_quote_info button.button-link,
+#watq_quote_data button.button-link ,
+ {
+    display:none !important;
+}
+#waqt_quote_detail .quote_details {
+    width:100%;
+    max-width:100%;
+    overflow: hidden;
+}
+
+#waqt_quote_detail .quote_details ._user_detail ,
+#waqt_quote_detail .quote_details ._general_detail {
+    padding-bottom:15px;
+}
+
+#waqt_quote_detail {
+    padding-top:20px;
+}
+
+#waqt_quote_detail h2 {
+    font-weight: bolder;
+    font-size:20px;
+    padding:0;
+}
+
+._product_detail td.product_image img {
+    width: 150px;
+}
+._product_detail td {
+    width: 16.66%;
+    text-align: center;
+}
+
+._product_detail table {
+    width: 100%;
+    border-spacing: 0;
+    box-shadow:0 0 1px 1px #e5e5e5;
+}
+.product_details > h2 {
+    margin-bottom: 30px !important;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+._product_detail table tr {
+    background-color: #f6f6f6;
+}
+._product_detail table tr td {
+    border-bottom:1px solid #e8e8e8;
+    border-top:1px solid #e8e8e8;
+    padding: 10px 5px;
+}
+._product_detail table thead tr {
+    background-color: #fff;
+    margin-bottom: 15px;
+
+}
+._product_detail table thead tr th {
+    padding: 20px 0;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+._product_detail .variation._quote_variations {
+    float: left;
+    width: 100%;
+}
+._product_detail dt {
+    display: inline-block;
+    float: left;
+    clear: both;
+    text-align: center;
+    width: 50%;
+    font-weight:bold;
+}
+._product_detail dt:after {
+    content:':';
+}
+._product_detail dd {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    line-height: 1;
+    width: 50%;
+}
+._product_detail dd p {
+    margin: 0;
+}
